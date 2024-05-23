@@ -76,8 +76,8 @@ function skill_7() {
 function skill_8() {
 	return {
 		logo: tailwind,
-		title: "Tailwind Css",
-		keywords: ["Tailwind Css"],
+		title: "Tailwind CSS",
+		keywords: ["Tailwind CSS"],
 		className: "tailwind",
 	};
 }

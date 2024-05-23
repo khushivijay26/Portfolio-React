@@ -1,9 +1,11 @@
+import react from "./logo/reactjs.png"
+
 const INFO = {
 	main: {
 		title: "Reactfolio by Khushi",
 		name: "Khushi Vijay",
 		email: "khushivijay176@gmail.com",
-		logo: "../logo.png",
+		logo: "../KhushiVijayLogo.jpg",
 	},
 
 	socials: {
@@ -31,48 +33,83 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "TravelZilla",
+			description: "Travel and tourism page using ReactJS.",
+			logo: react,
+			linkText: "View Project",
+			link: "https://travelzilla.netlify.app/",
+		},
+
+		{
+			title: "Task-Tracker",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"A task management tool designed to track tasks, storing them locally along with their status.",
+			logo: react,
+			linkText: "View Project",
+			link: "https://lighthearted-biscochitos-43fd3e.netlify.app/",
+		},
+
+		{
+			title: "Calculator",
+			description:
+				"Basic Calculator using ReactJS and formatting with react-textfit library.",
+			logo: react,
+			linkText: "View Project",
+			link: "https://react-compute.netlify.app/",
+		},
+
+		{
+			title: "Quizzo-mania",
+			description:
+				"A quiz application that shuffles questions and saves user progress in local storage.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://khushivijay26.github.io/Quizzo/",
 		},
 
 		{
-			title: "Project 2",
+			title: "MovieBuddy",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Integrated TMDB API for a movie database application with search functionality and sorted data on the basis of popularity.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://khushivijay26.github.io/MovieBuddy/",
 		},
 
 		{
-			title: "Project 5",
+			title: "Shopping-Cart",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"A JavaScript application tailored for grocery shopping, enabling users to add items to their cart, view their selections, and proceed to checkout.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://khushivijay26.github.io/JS-Shopping-Cart/",
+		},
+
+		{
+			title: "Color-Flipper",
+			description:
+				"A JavaScript-based tool that randomly generates colors with each click, offering a fun way to explore different color combinations.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://khushivijay26.github.io/Change-the-background/",
+		},
+
+		{
+			title: "Text-to-speech",
+			description:
+				"An application utilizing text-to-speech technology aimed at enhancing vocabulary skills.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://khushivijay26.github.io/Text-to-Speech/",
+		},
+
+		{
+			title: "Form-Validations",
+			description:
+				"A form validation application integrating both manual validation techniques and regular expressions to ensure accurate data entry.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://khushivijay26.github.io/Registration-Form/",
 		},
 	],
 };
