@@ -1,0 +1,112 @@
+@import "../../../data/styles.css";
+
+.homepage-article {
+	width: 90%;
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+
+.homepage-article:hover {
+	background: #fafafa;
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.homepage-article-content {
+	display: flex;
+	padding: 15px;
+	align-items: center;
+}
+
+.skill-reactJs {
+	width: 3rem;
+	padding-right: 0.5rem;
+}
+
+.skill-nextJs {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding-right: 0.5rem;
+}
+
+.skill-figma {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding-right: 0.5rem;
+}
+
+.skill-javaScript {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding-right: 0.5rem;
+}
+
+.skill-html {
+	width: 2.75rem;
+	height: 2.75rem;
+	padding-right: 0.5rem;
+}
+
+.skill-css {
+	width: 2.75rem;
+	height: 2.75rem;
+	padding-right: 0.5rem;
+}
+
+.skill-bootstrap {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding-right: 0.5rem;
+}
+
+.skill-tailwind {
+	width: 2.75rem;
+	height: 1.75rem;
+	padding-right: 0.5rem;
+}
+
+.skill-git {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding-right: 0.5rem;
+}
+
+.skill-jest {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding-right: 0.5rem;
+}
+
+.homepage-article-title {
+	opacity: 1;
+	color: var(--primary-color);
+	font-size: 16px;
+	/* margin-bottom: 1em; */
+	font-weight: 700;
+}
+
+.homepage-article-description {
+	opacity: 1;
+	color: var(--secondary-color);
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.homepage-article-link {
+	opacity: 1;
+	padding-top: 20px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.homepage-article-link a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+
+@media (max-width: 600px) {
+	.homepage-article {
+		width: 100%;
+	}
+}
