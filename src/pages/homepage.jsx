@@ -3,23 +3,20 @@ import { Helmet } from "react-helmet";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faGithub,
-	faLinkedin
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Skills from "../components/homepage/article";
+import mySkills from "../data/skills";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
+import Skill from "../components/homepage/skills";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -98,7 +95,7 @@ const Homepage = () => {
 								</div>
 							</div>
 
-							<div className="homepage-first-area-right-side">
+							{/* <div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
@@ -108,7 +105,7 @@ const Homepage = () => {
 										/>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
 
 						<div className="homepage-socials">
@@ -144,32 +141,31 @@ const Homepage = () => {
 							</a>
 						</div>
 
-						{/* <div className="homepage-projects">
-							<AllProjects />
-						</div> */}
-
 						<div className="homepage-after-title">
-							{/* <div className="homepage-articles">
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Skills
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
-							</div> */}
-
 							<div className="homepage-works">
 								<Works />
 							</div>
 						</div>
+
+						{/* <div className="homepage-skills">
+							{mySkills.map((skills, index) => (
+								<div
+									className="skills-skills"
+									key={(index + 1).toString()}
+								>
+									<Skill
+										key={(index + 1).toString()}
+										logo={skills().logo}
+										title={skills().title}
+										className={skills().className}
+									/>
+								</div>
+							))}
+						</div>
+
+						<div className="homepage-projects">
+							<AllProjects />
+						</div> */}
 
 						<div className="page-footer">
 							<Footer />

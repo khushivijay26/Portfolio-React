@@ -46,7 +46,7 @@ const INFO = {
 				"A task management tool designed to track tasks, storing them locally along with their status.",
 			logo: react,
 			linkText: "View Project",
-			link: "https://lighthearted-biscochitos-43fd3e.netlify.app/",
+			link: "https://tasktracked.netlify.app/",
 		},
 
 		{
