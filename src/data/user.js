@@ -4,7 +4,7 @@ const INFO = {
 	main: {
 		title: "Reactfolio by Khushi",
 		name: "Khushi Vijay",
-		email: "khushivijay176@gmail.com",
+		email: "fed.khushi.vijay@gmail.com",
 		logo: "../KhushiVijayLogo.jpg",
 	},
 
