@@ -9,6 +9,10 @@ import bootstrap from "./logo/bootstrap.png";
 import tailwind from "./logo/tailwind-css.1024x615.png";
 import jest from "./logo/Jest.png";
 import git from "./logo/github.png";
+import postman from "./logo/postman.png";
+import hubspot from "./logo/hubspot.png";
+import semrush from "./logo/semrush.png";
+import redux from "./logo/redux.png";
 
 function skill_1() {
 	return {
@@ -100,6 +104,42 @@ function skill_10() {
 	};
 }
 
+function skill_11() {
+	return {
+		logo: redux,
+		title: "Redux",
+		keywords: ["GitHub"],
+		className: "git",
+	};
+}
+
+function skill_12() {
+	return {
+		logo: postman,
+		title: "Postman",
+		keywords: ["Postman"],
+		className: "postman",
+	};
+}
+
+function skill_13() {
+	return {
+		logo: hubspot,
+		title: "Hubspot",
+		keywords: ["Hubspot"],
+		className: "hubspot",
+	};
+}
+
+function skill_14() {
+	return {
+		logo: semrush,
+		title: "SEMrush",
+		keywords: ["SEMrush"],
+		className: "semrush",
+	};
+}
+
 const mySkills = [
 	skill_1,
 	skill_2,
@@ -111,6 +151,10 @@ const mySkills = [
 	skill_8,
 	skill_9,
 	skill_10,
+	skill_11,
+	skill_12,
+	skill_13,
+	skill_14,
 ];
 
 export default mySkills;

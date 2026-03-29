@@ -78,6 +78,30 @@
 	padding-right: 0.5rem;
 }
 
+.skill-hubspot {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding-right: 0.5rem;
+}
+
+.skill-semrush {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding-right: 0.5rem;
+}
+
+.skill-redux {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding-right: 0.5rem;
+}
+
+.skill-postman {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding-right: 0.5rem;
+}
+
 .homepage-article-title {
 	opacity: 1;
 	color: var(--primary-color);

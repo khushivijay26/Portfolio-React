@@ -5,6 +5,7 @@ import Card from "../common/card";
 import arcgateLogo from "../../images/Arcgate.png";
 import chhorrLogo from "../../images/chhorr_logo.png";
 import publiciseLogo from "../../images/publiciseLogo.png";
+import mufinLogo from "../../images/mufinPay-logo.jpg";
 
 import "./styles/works.css";
 
@@ -18,6 +19,21 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
+								src={mufinLogo}
+								alt="Mufin Technologies"
+								className="work-image"
+							/>
+							<div className="work-title">Mufin Technologies</div>
+							<div className="work-subtitle">
+								Frontend Developer
+							</div>
+							<div className="work-duration">
+								Jan 2026 - Present
+							</div>
+						</div>
+
+						<div className="work">
+							<img
 								src={arcgateLogo}
 								alt="Arcgate"
 								className="work-image"
@@ -27,7 +43,7 @@ const Works = () => {
 								Frontend Developer
 							</div>
 							<div className="work-duration">
-								May 2023 - Present
+								May 2023 - Jan 2026
 							</div>
 						</div>
 
