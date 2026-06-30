@@ -3,7 +3,7 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "../common/card";
 import arcgateLogo from "../../images/Arcgate.png";
-import chhorrLogo from "../../images/chhorr_logo.png";
+// import chhorrLogo from "../../images/chhorr_logo.png";
 import publiciseLogo from "../../images/publiciseLogo.png";
 import mufinLogo from "../../images/mufinPay-logo.jpg";
 
@@ -47,7 +47,7 @@ const Works = () => {
 							</div>
 						</div>
 
-						<div className="work">
+						{/* <div className="work">
 							<img
 								src={chhorrLogo}
 								alt="Chhorr-Designs by Aanchal"
@@ -60,7 +60,7 @@ const Works = () => {
 								Frontend Developer
 							</div>
 							<div className="work-duration">June 2022 - April 2023</div>
-						</div>
+						</div> */}
 
 						<div className="work">
 							<img
@@ -73,7 +73,7 @@ const Works = () => {
 								Frontend Developer Intern
 							</div>
 							<div className="work-duration">
-								April 2021 - July 2021
+								September 2022 - December 2022
 							</div>
 						</div>
 					</div>
